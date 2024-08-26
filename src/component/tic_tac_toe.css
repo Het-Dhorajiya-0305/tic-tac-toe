@@ -1,0 +1,50 @@
+.board
+{
+    display: flex;
+    justify-content: center;
+}
+.main
+{
+    width: 100%;
+    text-align: center;
+    margin:0px 100px;
+}
+.title
+{
+    font-size: 45px;
+}
+.row
+{
+    margin:6px 0px;
+}
+.boxes
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(33, 32, 32);
+    border-radius: 10px;
+    margin:3px;
+}
+.boxes:hover{
+    cursor: pointer;
+}
+
+.boxes img{
+    margin: 30px 30px;
+}
+.btn
+{
+    background:none;
+    border: 1px solid white;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 50px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.btn:hover
+{
+    cursor: pointer;
+}
